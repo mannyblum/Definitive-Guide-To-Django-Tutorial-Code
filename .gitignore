@@ -1,0 +1,18 @@
+# Mac Ignores
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# VIM Ignores
+*.swp
+*.swo
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# Others
+
+*.pyc
