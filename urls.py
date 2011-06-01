@@ -1,5 +1,5 @@
 from django.conf.urls.defaults import * 
-from mysite.views import hello
+from mysite.views import hello, current_datetime
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
@@ -10,6 +10,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'mysite.views.home', name='home'),
     # url(r'^mysite/', include('mysite.foo.urls')),
     url('^hello/$', hello),
+    url('^time/$', current_datetime),
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
